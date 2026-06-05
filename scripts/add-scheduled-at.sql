@@ -1,0 +1,2 @@
+ALTER TABLE prescriptions ADD COLUMN IF NOT EXISTS scheduled_at TIMESTAMP WITH TIME ZONE;
+CREATE INDEX IF NOT EXISTS idx_prescriptions_scheduled_at ON prescriptions(scheduled_at) WHERE scheduled_at IS NOT NULL;

@@ -1,0 +1,51 @@
+name: mobile_flutter
+description: "HelpingPaws - Veterinary Management Mobile App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # State Management
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  
+  # Networking
+  dio: ^5.8.0
+  
+  # Supabase
+  supabase_flutter: ^2.1.0
+  
+  # Local Storage
+  shared_preferences: ^2.5.3
+  
+  # Video Player
+  video_player: ^2.9.2
+  chewie: ^1.10.0
+  
+  # WebView
+  webview_flutter: ^4.10.0
+  url_launcher: ^6.3.1
+  
+  # UI
+  google_fonts: ^6.2.1
+  
+  # Utils
+  intl: ^0.20.2
+  get_it: ^8.0.3
+  flutter_dotenv: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env

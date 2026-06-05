@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "HelpingPaws",
+    "slug": "helpingpaws",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "helpingpaws",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3a7d6c"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.helpingpaws.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3a7d6c"
+      },
+      "package": "com.helpingpaws.app",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-video"
+    ]
+  }
+}
