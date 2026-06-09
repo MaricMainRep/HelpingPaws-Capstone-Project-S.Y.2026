@@ -243,5 +243,3 @@ This project is proprietary and confidential. All rights reserved.
 For questions or support, please contact the development team.
 
 ---
-
-Built with ❤️ by Alexis Corporal
